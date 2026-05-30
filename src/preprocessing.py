@@ -6,7 +6,6 @@ and creates the piecewise-linear RUL target variable.
 """
 
 import pandas as pd
-import numpy as np
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 from src.utils import load_config, setup_logger, ensure_dir

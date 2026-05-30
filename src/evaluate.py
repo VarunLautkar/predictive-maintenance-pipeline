@@ -17,7 +17,6 @@ import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 from src.train import get_feature_target_split

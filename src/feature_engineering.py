@@ -10,7 +10,6 @@ more predictive of remaining useful life.
 """
 
 import pandas as pd
-import numpy as np
 
 from src.utils import load_config, setup_logger, ensure_dir
 

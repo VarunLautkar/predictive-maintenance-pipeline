@@ -9,7 +9,6 @@ driven from config.yaml. Models are saved as joblib artifacts.
 from pathlib import Path
 
 import pandas as pd
-import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GroupShuffleSplit

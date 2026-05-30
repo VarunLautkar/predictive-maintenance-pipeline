@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 100
+ignore =
+    # E203: whitespace before ':' (conflicts with black formatter)
+    E203,
+    # W503: line break before binary operator (conflicts with black formatter)
+    W503,
+    # E402: module level import not at top of file
+    # Needed for matplotlib.use("Agg") which must come before pyplot import
+    E402
+per-file-ignores =
+    # Allow unused imports in __init__.py (for re-exporting)
+    src/__init__.py: F401
