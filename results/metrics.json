@@ -1,0 +1,20 @@
+{
+  "random_forest": {
+    "rmse": 12.353792507665467,
+    "mae": 8.695749107736523,
+    "r2_score": 0.912357948705292,
+    "median_ae": 5.478516119894593,
+    "asymmetric_score": 13.220476947604624,
+    "n_late_predictions": 1640,
+    "n_early_predictions": 2410
+  },
+  "xgboost": {
+    "rmse": 11.945533485938244,
+    "mae": 8.335123062133789,
+    "r2_score": 0.9180548787117004,
+    "median_ae": 5.406116485595703,
+    "asymmetric_score": 12.560062765032052,
+    "n_late_predictions": 1797,
+    "n_early_predictions": 2253
+  }
+}
